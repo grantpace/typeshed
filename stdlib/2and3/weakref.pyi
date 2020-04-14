@@ -12,7 +12,8 @@ from _weakref import (
     proxy as proxy,
     CallableProxyType as CallableProxyType,
     ProxyType as ProxyType,
-    ReferenceType as ReferenceType)
+    ReferenceType as ReferenceType,
+    WeakMethod as WeakMethod)
 from _weakrefset import WeakSet as WeakSet
 
 if sys.version_info < (3, 0):
